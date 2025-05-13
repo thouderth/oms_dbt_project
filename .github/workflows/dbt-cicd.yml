@@ -13,13 +13,16 @@ jobs:
     name: Compile DBT Project
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/dbt-labs/dbt-snowflake:1.9.3
+      image: ghcr.io/dbt-labs/dbt-core:1.9.3
       credentials:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - uses: actions/checkout@v4
+
+      - name: Install dbt-snowflake
+        run: pip install dbt-snowflake==1.9.3
 
       - name: dbt compile
         run: dbt compile --target dev
@@ -35,13 +38,16 @@ jobs:
       matrix:
         env: [dev, prod]
     container:
-      image: ghcr.io/dbt-labs/dbt-snowflake:1.9.3
+      image: ghcr.io/dbt-labs/dbt-core:1.9.3
       credentials:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - uses: actions/checkout@v4
+
+      - name: Install dbt-snowflake
+        run: pip install dbt-snowflake==1.9.3
 
       - name: dbt run
         run: dbt run --target ${{ matrix.env }}
@@ -60,7 +66,7 @@ jobs:
     needs: dbt-run
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/dbt-labs/dbt-snowflake:1.9.3
+      image: ghcr.io/dbt-labs/dbt-core:1.9.3
       credentials:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
@@ -68,6 +74,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install dbt-snowflake
+        run: pip install dbt-snowflake==1.9.3
+        
       - name: Generate dbt docs
         run: dbt docs generate --target prod
         env:
