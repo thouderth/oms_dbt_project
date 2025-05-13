@@ -1,3 +1,4 @@
+-- commentaire
 {{ config(materialized='table') }}
 
 WITH CUSTOMERORDERS AS (

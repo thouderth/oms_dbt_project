@@ -6,7 +6,8 @@ create or replace transient table SLEEKMART_OMS.L3_CONSUMPTION.customerorders
     
 
     
-    as (
+    as (-- commentaire
+
 
 WITH CUSTOMERORDERS AS (
     SELECT
