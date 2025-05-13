@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install dbt-snowflake
-        run: pip install dbt-snowflake==1.9.3
+        run: pip install dbt-snowflake
 
       - name: dbt compile
         run: dbt compile --target dev
@@ -47,7 +47,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install dbt-snowflake
-        run: pip install dbt-snowflake==1.9.3
+        run: pip install dbt-snowflake
 
       - name: dbt run
         run: dbt run --target ${{ matrix.env }}
@@ -75,8 +75,8 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install dbt-snowflake
-        run: pip install dbt-snowflake==1.9.3
-        
+        run: pip install dbt-snowflake
+
       - name: Generate dbt docs
         run: dbt docs generate --target prod
         env:
