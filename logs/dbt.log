@@ -2846,3 +2846,169 @@ KeyboardInterrupt
 [0m16:55:59.600942 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB1B3987D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB1B3E3150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AB1B38A790>]}
 [0m16:55:59.600942 [debug] [MainThread]: Flushing usage events
 [0m16:56:00.968024 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:11:32.251551 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D14396790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D14397310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D14395CD0>]}
+
+
+============================== 15:11:32.256545 | 3ce5ab7e-3e81-4b63-8297-6c2b2e8359c5 ==============================
+[0m15:11:32.256545 [info ] [MainThread]: Running with dbt=1.9.0
+[0m15:11:32.257258 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'c:\\Users\\Admin\\Documents\\Data\\DBT\\oms_dbt_proj', 'debug': 'False', 'warn_error': 'None', 'log_path': 'c:\\Users\\Admin\\Documents\\Data\\DBT\\oms_dbt_proj\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt ', 'send_anonymous_usage_stats': 'True'}
+[0m15:11:32.383732 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3ce5ab7e-3e81-4b63-8297-6c2b2e8359c5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D144CF590>]}
+[0m15:11:32.416164 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m15:11:32.419328 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m15:11:32.420521 [debug] [MainThread]: Command `cli deps` succeeded at 15:11:32.420521 after 0.28 seconds
+[0m15:11:32.420521 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D143E7690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D143E7D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D143E77D0>]}
+[0m15:11:32.421560 [debug] [MainThread]: Flushing usage events
+[0m15:11:32.791393 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:12:55.842639 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001523B878D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001523B879190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001523B878410>]}
+
+
+============================== 15:12:55.847732 | ccd8cfd7-b232-42d0-bbf1-6264aac75ddf ==============================
+[0m15:12:55.847732 [info ] [MainThread]: Running with dbt=1.9.4
+[0m15:12:55.849147 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Admin\\Documents\\Data\\DBT\\oms_dbt_proj', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\Admin\\Documents\\Data\\DBT\\oms_dbt_proj\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:12:56.472228 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ccd8cfd7-b232-42d0-bbf1-6264aac75ddf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001523D833990>]}
+[0m15:12:56.522275 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ccd8cfd7-b232-42d0-bbf1-6264aac75ddf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001523D73F850>]}
+[0m15:12:56.524277 [info ] [MainThread]: Registered adapter: snowflake=1.9.4
+[0m15:12:56.962364 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m15:12:57.077769 [info ] [MainThread]: Unable to do partial parsing because of a version mismatch
+[0m15:12:57.079772 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'ccd8cfd7-b232-42d0-bbf1-6264aac75ddf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001523D83F610>]}
+[0m15:12:58.202317 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ccd8cfd7-b232-42d0-bbf1-6264aac75ddf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001523DA89E50>]}
+[0m15:12:58.269638 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Admin\Documents\Data\DBT\oms_dbt_proj\target\manifest.json
+[0m15:12:58.274953 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Admin\Documents\Data\DBT\oms_dbt_proj\target\semantic_manifest.json
+[0m15:12:58.312753 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ccd8cfd7-b232-42d0-bbf1-6264aac75ddf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001523DF06890>]}
+[0m15:12:58.315494 [info ] [MainThread]: Found 1 model, 2 data tests, 476 macros
+[0m15:12:58.316678 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ccd8cfd7-b232-42d0-bbf1-6264aac75ddf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001523DABDF10>]}
+[0m15:12:58.317999 [info ] [MainThread]: 
+[0m15:12:58.317999 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m15:12:58.320273 [info ] [MainThread]: 
+[0m15:12:58.320904 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m15:12:58.321554 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SLEEKMART_OMS'
+[0m15:12:58.509638 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS"
+[0m15:12:58.509638 [debug] [ThreadPool]: On list_SLEEKMART_OMS: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "oms_dbt_proj", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS"} */
+show terse schemas in database SLEEKMART_OMS
+    limit 10000
+[0m15:12:58.509638 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:12:59.700776 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "oms_dbt_proj", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS"} */
+show terse schemas in database SLEEKMART_OMS
+    limit 10000
+[0m15:12:59.700776 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m15:12:59.702781 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_schemas
+[0m15:12:59.702781 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m15:12:59.704785 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:12:59.704785 [debug] [MainThread]: Connection 'list_SLEEKMART_OMS' was left open.
+[0m15:12:59.704785 [debug] [MainThread]: On list_SLEEKMART_OMS: No close available on handle
+[0m15:12:59.704785 [info ] [MainThread]: 
+[0m15:12:59.704785 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 1.38 seconds (1.38s).
+[0m15:12:59.704785 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Database error while listing schemas in database "SLEEKMART_OMS"
+  Database Error
+    250001 (08001): Failed to connect to DB: YEGNSYV-VM39095.snowflakecomputing.com:443. Incorrect username or password was specified.
+[0m15:12:59.704785 [debug] [MainThread]: Command `dbt run` failed at 15:12:59.704785 after 3.99 seconds
+[0m15:12:59.704785 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001523B3BB010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001523DE42B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015234E7B290>]}
+[0m15:12:59.704785 [debug] [MainThread]: Flushing usage events
+[0m15:13:00.138211 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:13:48.356606 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025719BE8550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025719BEA610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025719BE92D0>]}
+
+
+============================== 15:13:48.356606 | 185e0be3-a479-44c6-b1a9-8a6141350f3b ==============================
+[0m15:13:48.356606 [info ] [MainThread]: Running with dbt=1.9.4
+[0m15:13:48.356606 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\Admin\\Documents\\Data\\DBT\\oms_dbt_proj\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Admin\\Documents\\Data\\DBT\\oms_dbt_proj', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:13:48.794393 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '185e0be3-a479-44c6-b1a9-8a6141350f3b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025719C97A90>]}
+[0m15:13:48.841567 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '185e0be3-a479-44c6-b1a9-8a6141350f3b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002571BAAF650>]}
+[0m15:13:48.841567 [info ] [MainThread]: Registered adapter: snowflake=1.9.4
+[0m15:13:49.278341 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m15:13:49.451392 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m15:13:49.467060 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m15:13:49.498856 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '185e0be3-a479-44c6-b1a9-8a6141350f3b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002571BE70350>]}
+[0m15:13:49.562021 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Admin\Documents\Data\DBT\oms_dbt_proj\target\manifest.json
+[0m15:13:49.562021 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Admin\Documents\Data\DBT\oms_dbt_proj\target\semantic_manifest.json
+[0m15:13:49.577689 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '185e0be3-a479-44c6-b1a9-8a6141350f3b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002571BFD4850>]}
+[0m15:13:49.577689 [info ] [MainThread]: Found 1 model, 2 data tests, 476 macros
+[0m15:13:49.577689 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '185e0be3-a479-44c6-b1a9-8a6141350f3b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002571BDEA210>]}
+[0m15:13:49.577689 [info ] [MainThread]: 
+[0m15:13:49.577689 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m15:13:49.577689 [info ] [MainThread]: 
+[0m15:13:49.577689 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m15:13:49.594244 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SLEEKMART_OMS'
+[0m15:13:49.684604 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS"
+[0m15:13:49.700045 [debug] [ThreadPool]: On list_SLEEKMART_OMS: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "oms_dbt_proj", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS"} */
+show terse schemas in database SLEEKMART_OMS
+    limit 10000
+[0m15:13:49.701068 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:13:50.545099 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 0.844 seconds
+[0m15:13:50.545099 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SLEEKMART_OMS_L3_CONSUMPTION'
+[0m15:13:50.545099 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS_L3_CONSUMPTION"
+[0m15:13:50.545099 [debug] [ThreadPool]: On list_SLEEKMART_OMS_L3_CONSUMPTION: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "oms_dbt_proj", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS_L3_CONSUMPTION"} */
+alter session set quoted_identifiers_ignore_case = false;
+[0m15:13:50.545099 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:13:51.076978 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.524 seconds
+[0m15:13:51.093009 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS_L3_CONSUMPTION"
+[0m15:13:51.093009 [debug] [ThreadPool]: On list_SLEEKMART_OMS_L3_CONSUMPTION: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "oms_dbt_proj", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS_L3_CONSUMPTION"} */
+show objects in SLEEKMART_OMS.L3_CONSUMPTION
+    limit 10000
+    
+;
+[0m15:13:51.238306 [debug] [ThreadPool]: SQL status: SUCCESS 3 in 0.154 seconds
+[0m15:13:51.254047 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS_L3_CONSUMPTION"
+[0m15:13:51.255423 [debug] [ThreadPool]: On list_SLEEKMART_OMS_L3_CONSUMPTION: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "oms_dbt_proj", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS_L3_CONSUMPTION"} */
+alter session unset quoted_identifiers_ignore_case;
+[0m15:13:51.300402 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.046 seconds
+[0m15:13:51.305461 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '185e0be3-a479-44c6-b1a9-8a6141350f3b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002571BEB84D0>]}
+[0m15:13:51.306623 [debug] [Thread-1 (]: Began running node model.oms_dbt_proj.customerorders
+[0m15:13:51.306623 [info ] [Thread-1 (]: 1 of 1 START sql table model L3_CONSUMPTION.customerorders ..................... [RUN]
+[0m15:13:51.316183 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.oms_dbt_proj.customerorders'
+[0m15:13:51.316183 [debug] [Thread-1 (]: Began compiling node model.oms_dbt_proj.customerorders
+[0m15:13:51.316183 [debug] [Thread-1 (]: Writing injected SQL for node "model.oms_dbt_proj.customerorders"
+[0m15:13:51.316183 [debug] [Thread-1 (]: Began executing node model.oms_dbt_proj.customerorders
+[0m15:13:51.355269 [debug] [Thread-1 (]: Writing runtime sql for node "model.oms_dbt_proj.customerorders"
+[0m15:13:51.355269 [debug] [Thread-1 (]: Using snowflake connection "model.oms_dbt_proj.customerorders"
+[0m15:13:51.355269 [debug] [Thread-1 (]: On model.oms_dbt_proj.customerorders: /* {"app": "dbt", "dbt_version": "1.9.4", "profile_name": "oms_dbt_proj", "target_name": "dev", "node_id": "model.oms_dbt_proj.customerorders"} */
+create or replace transient table SLEEKMART_OMS.L3_CONSUMPTION.customerorders
+    
+
+    
+    as (-- commentaire
+
+
+WITH CUSTOMERORDERS AS (
+    SELECT
+    c.CustomerID,
+    CONCAT(c.firstName, ' ', c.lastName) AS CustomerName,
+    COUNT(o.OrderID) AS No_Of_Orders
+    FROM L1_LANDING.CUSTOMERS c
+    INNER JOIN L1_LANDING.ORDERS o
+    ON c.CustomerID = o.CustomerID
+    GROUP BY c.CustomerID, CustomerName
+    ORDER BY No_Of_Orders DESC
+    )
+
+SELECT CustomerID, CustomerName, No_Of_Orders
+FROM CUSTOMERORDERS
+    )
+;
+[0m15:13:51.355269 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m15:13:53.062247 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.711 seconds
+[0m15:13:53.094077 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '185e0be3-a479-44c6-b1a9-8a6141350f3b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002571C4EB790>]}
+[0m15:13:53.094077 [info ] [Thread-1 (]: 1 of 1 OK created sql table model L3_CONSUMPTION.customerorders ................ [[32mSUCCESS 1[0m in 1.79s]
+[0m15:13:53.094077 [debug] [Thread-1 (]: Finished running node model.oms_dbt_proj.customerorders
+[0m15:13:53.094077 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:13:53.094077 [debug] [MainThread]: Connection 'list_SLEEKMART_OMS' was left open.
+[0m15:13:53.094077 [debug] [MainThread]: On list_SLEEKMART_OMS: Close
+[0m15:13:53.146250 [debug] [MainThread]: Connection 'list_SLEEKMART_OMS_L3_CONSUMPTION' was left open.
+[0m15:13:53.146250 [debug] [MainThread]: On list_SLEEKMART_OMS_L3_CONSUMPTION: Close
+[0m15:13:53.186693 [debug] [MainThread]: Connection 'model.oms_dbt_proj.customerorders' was left open.
+[0m15:13:53.187690 [debug] [MainThread]: On model.oms_dbt_proj.customerorders: Close
+[0m15:13:53.233086 [info ] [MainThread]: 
+[0m15:13:53.233086 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 3.66 seconds (3.66s).
+[0m15:13:53.238657 [debug] [MainThread]: Command end result
+[0m15:13:53.269915 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Admin\Documents\Data\DBT\oms_dbt_proj\target\manifest.json
+[0m15:13:53.269915 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Admin\Documents\Data\DBT\oms_dbt_proj\target\semantic_manifest.json
+[0m15:13:53.282530 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Admin\Documents\Data\DBT\oms_dbt_proj\target\run_results.json
+[0m15:13:53.284113 [info ] [MainThread]: 
+[0m15:13:53.284113 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m15:13:53.284113 [info ] [MainThread]: 
+[0m15:13:53.284113 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m15:13:53.284113 [debug] [MainThread]: Command `dbt run` succeeded at 15:13:53.284113 after 5.02 seconds
+[0m15:13:53.284113 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002571972AF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025719C3A610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025719C38E90>]}
+[0m15:13:53.284113 [debug] [MainThread]: Flushing usage events
+[0m15:13:53.660179 [debug] [MainThread]: An error was encountered while trying to flush usage events
