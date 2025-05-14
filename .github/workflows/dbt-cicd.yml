@@ -16,7 +16,7 @@ jobs:
       matrix:
         env: [dev, prod]
     container:
-      image: ghcr.io/dbt-labs/dbt-core:1.9.3
+      image: ghcr.io/dbt-labs/dbt-snowflake:1.9.latest
       credentials:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
@@ -44,7 +44,7 @@ jobs:
     needs: dbt-run
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/dbt-labs/dbt-core:1.9.3
+      image: ghcr.io/dbt-labs/dbt-snowflake:1.9.latest
       credentials:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
