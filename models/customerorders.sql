@@ -1,6 +1,6 @@
 -- commentaire
 {{ config(materialized='table') }}
-
+-- comment
 WITH CUSTOMERORDERS AS (
     SELECT
     c.CustomerID,
