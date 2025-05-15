@@ -1,4 +1,4 @@
-name: DBT CI/CD - Run, Test, Docs, Notify
+name: DBT CI/CD - Run, Test, Docs
 
 on:
   push:
