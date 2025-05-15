@@ -1,15 +1,20 @@
-Welcome to your new dbt project!
+# dbt Project: oms_dbt_project
 
-### Using the starter project
+Ce projet dbt extrait, transforme et charge les données de ServiceNow vers Snowflake.
 
-Try running the following commands:
+## Structure
+
+- `models/`: les transformations SQL
+- `macros/`: les macros Jinja dbt
+- `target/`: dossier généré (ignoré par Git)
+- `.github/workflows/`: CI/CD GitHub Actions
+
+## CI/CD
+
+Chaque `push` ou `pull request` sur `main` déclenche :
+
+- dbt compile
 - dbt run
 - dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+- dbt docs
+- déploiement de la documentation sur GitHub Pages

@@ -1,0 +1,24 @@
+oms_dbt_proj:
+  target: dev
+  outputs:
+    dev:
+      account: YEGNSYV-VM39095
+      database: SLEEKMART_OMS
+      password: '{{ env_var(''SNOW_PASSWORD'') }}'
+      role: ACCOUNTADMIN
+      schema: L3_CONSUMPTION
+      threads: 1
+      type: snowflake
+      user: thouderth
+      warehouse: COMPUTE_WH
+
+    prod:
+      account: YEGNSYV-VM39095
+      database: SLEEKMART_OMS
+      password: '{{ env_var(''SNOW_PASSWORD'') }}'
+      role: ACCOUNTADMIN
+      schema: TECH
+      threads: 1
+      type: snowflake
+      user: thouderth
+      warehouse: COMPUTE_WH

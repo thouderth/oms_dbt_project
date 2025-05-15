@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: customerorders
+    description: "Table gold customers orders"
+    columns:
+      - name: CustomerID
+        tests:
+          - not_null
+          - unique
+      
